@@ -1,0 +1,28 @@
+name: OnDeck FinOps
+description: Financial operations and cost considerations for integrating with OnDeck's partner lending API. OnDeck does not charge API usage fees directly; instead partners earn commissions on funded loans. Cost structures are tied to loan origination fees and commission agreements.
+url: https://www.ondeck.com/partner
+model: Commission-Based
+cost_to_integrate: None (partner program)
+revenue_model:
+  - name: Partner Commission
+    description: Partners earn commissions on loans funded through their integration. Specific commission rates are negotiated as part of the partner agreement.
+    type: Revenue Share
+  - name: Origination Fee (Borrower-Facing)
+    description: OnDeck charges borrowers an origination fee of up to 4% on funded loans. This is a borrower cost, not a developer/partner API cost.
+    rate: "Up to 4%"
+    payer: Borrower
+loan_products:
+  - product: Business Term Loan
+    apr_average: "57.90%"
+    amount_range: "$5K - $400K"
+    term_max: "24 months"
+  - product: Business Line of Credit
+    apr_average: "56.60%"
+    amount_range: "$6K - $200K"
+    term_options: "12, 18, or 24 months"
+notes:
+  - No API usage fees are charged to partners.
+  - Revenue is generated through loan origination and interest income on funded loans.
+  - Partners receive competitive commissions per funded loan.
+  - Same-day funding available for applications completed before 10:30 a.m. ET weekdays.
+  - Contact partners@ondeck.com for commission structure details.

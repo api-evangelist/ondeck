@@ -1,0 +1,38 @@
+name: OnDeck Plans and Pricing
+description: OnDeck provides small business lending products through a partner API program. Access to the OnDeck API is granted to qualified partners including banks, brokers, and online service providers. There is no self-serve public pricing tier for API access.
+url: https://www.ondeck.com/partner
+plans:
+  - name: Partner API Access
+    description: API access is available to qualified lending partners, brokers, and distribution partners who meet OnDeck's partnership requirements. Partners receive API credentials, sample code, developer support, and implementation guides.
+    type: Partner
+    access:
+      - Credit pre-qualification
+      - Loan application submission
+      - Business health score access
+      - Loan product management
+    requirements:
+      - 2+ years in business
+      - Fund $1M+ monthly in ACH/MCA A-Paper funding
+      - Encrypted website with privacy policy
+      - Business insurance (general or professional)
+      - US-based location
+    contact: partners@ondeck.com
+    portal: https://partners.ondeck.com
+products:
+  - name: Business Term Loan
+    description: One-time lump sum funding from $5K to $400K with repayment terms up to 24 months.
+    amount_min: 5000
+    amount_max: 400000
+    term_max_months: 24
+    average_apr: "57.90%"
+    origination_fee: "Up to 4%"
+  - name: Business Line of Credit
+    description: Revolving credit line from $6K to $200K with flexible 12, 18, or 24-month terms and 24/7 draws.
+    amount_min: 6000
+    amount_max: 200000
+    term_months:
+      - 12
+      - 18
+      - 24
+    average_apr: "56.60%"
+    origination_fee: "Up to 4%"

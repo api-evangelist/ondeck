@@ -1,0 +1,14 @@
+name: OnDeck API Rate Limits
+description: OnDeck's API is a partner-access program and specific rate limit details are not publicly disclosed. Rate limits are communicated to partners during onboarding as part of their implementation guide and partner agreement. The following represents general guidance based on publicly available information.
+url: https://www.ondeck.com/partner
+limits:
+  - name: Partner API
+    description: Rate limits for OnDeck partner API access are negotiated as part of the partner program and are not publicly documented. Partners should refer to their implementation guide or contact partners@ondeck.com for specific limit details.
+    type: Partner Negotiated
+    public_documentation: false
+    contact: partners@ondeck.com
+notes:
+  - OnDeck API access requires a partner agreement and is not available via self-service signup.
+  - Rate limit specifics are provided during partner onboarding.
+  - A UI sandbox environment is available for partner developer testing.
+  - For questions about limits contact partners@ondeck.com or call (888) 269-4246.

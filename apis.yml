@@ -1,0 +1,60 @@
+aid: ondeck
+name: OnDeck
+description: OnDeck is a small business lending platform that provides partner APIs for submitting loan applications, checking business health scores via the OnDeck Score, managing loan products including term loans and lines of credit, and processing repayments. The API enables banks, brokers, and online service providers to embed OnDeck lending capabilities directly into their own platforms through credit pre-qualification, pre-approval, and full loan application submission workflows. OnDeck is an Enova International brand serving 185,000+ small businesses with $25 billion+ in capital delivered.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/ondeck/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Small Business Lending
+  - Fintech
+  - Loans
+  - Credit Scoring
+  - Business Health
+  - Term Loans
+  - Line of Credit
+  - Loan Origination
+apis:
+  - name: OnDeck Lending API
+    description: REST API providing partner access to OnDeck's small business lending platform, supporting credit pre-qualifications, loan application submission, business health score retrieval via the OnDeck Score, loan product management, and repayment processing. Access is granted to qualified lending partners and distribution partners.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.ondeck.com/partner
+    baseURL: https://api.ondeck.com
+    tags:
+      - Small Business Lending
+      - Loan Application
+      - Credit Pre-Qualification
+      - Business Health Score
+      - Repayments
+    properties:
+      - type: Documentation
+        url: https://www.ondeck.com/partner
+      - type: Plans
+        url: https://raw.githubusercontent.com/api-evangelist/ondeck/refs/heads/main/plans/ondeck-plans-pricing.yml
+      - type: RateLimits
+        url: https://raw.githubusercontent.com/api-evangelist/ondeck/refs/heads/main/rate-limits/ondeck-rate-limits.yml
+      - type: FinOps
+        url: https://raw.githubusercontent.com/api-evangelist/ondeck/refs/heads/main/finops/ondeck-finops.yml
+common:
+  - type: Website
+    url: https://www.ondeck.com/
+  - type: Documentation
+    url: https://www.ondeck.com/partner
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/ondeck/
+  - type: X
+    url: https://twitter.com/OnDeckCapital/
+  - type: Blog
+    url: https://www.ondeck.com/resources
+  - type: Pricing
+    url: https://www.ondeck.com/partner
+  - type: Plans
+    url: https://raw.githubusercontent.com/api-evangelist/ondeck/refs/heads/main/plans/ondeck-plans-pricing.yml
+  - type: RateLimits
+    url: https://raw.githubusercontent.com/api-evangelist/ondeck/refs/heads/main/rate-limits/ondeck-rate-limits.yml
+  - type: FinOps
+    url: https://raw.githubusercontent.com/api-evangelist/ondeck/refs/heads/main/finops/ondeck-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
