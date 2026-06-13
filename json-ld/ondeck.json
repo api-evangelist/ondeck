@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.ondeck.com/",
+  "name": "OnDeck",
+  "description": "OnDeck is a small business lending platform that provides partner APIs for submitting loan applications, checking business health scores via the OnDeck Score, managing loan products including term loans and lines of credit, and processing repayments.",
+  "url": "https://www.ondeck.com/",
+  "sameAs": [
+    "https://www.linkedin.com/company/ondeck/",
+    "https://twitter.com/OnDeckCapital/"
+  ],
+  "brand": {
+    "@type": "Brand",
+    "name": "OnDeck"
+  },
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Enova International"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "OnDeck Lending API",
+    "description": "REST API providing partner access to OnDeck's small business lending platform, supporting credit pre-qualifications, loan application submission, business health score retrieval via the OnDeck Score, loan product management, and repayment processing.",
+    "url": "https://www.ondeck.com/partner"
+  },
+  "knowsAbout": [
+    "Small Business Lending",
+    "Loan Origination",
+    "Credit Pre-Qualification",
+    "Business Health Score",
+    "Term Loans",
+    "Line of Credit",
+    "Repayments",
+    "Fintech"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "partner support",
+    "email": "partners@ondeck.com",
+    "url": "https://www.ondeck.com/partner"
+  },
+  "publishingPrinciples": "https://www.ondeck.com/resources"
+}
