@@ -1,60 +1,13 @@
 {
-  "url": "https://www.ondeck.com/resources",
-  "retrieved": "2026-06-13",
-  "posts": [
-    {
-      "title": "How Long Does It Take to Get an SBA Loan?",
-      "url": "https://www.ondeck.com/resources/how-long-does-it-take-to-get-an-sba-loan",
-      "date": "2026-06-10"
-    },
-    {
-      "title": "How to Advertise Your Business on Social Media",
-      "url": "https://www.ondeck.com/resources/how-to-advertise-your-business-on-social-media",
-      "date": "2026-05-29"
-    },
-    {
-      "title": "How to Get Vendor Discounts: 5 Key Negotiating Strategies",
-      "url": "https://www.ondeck.com/resources/leverage-vendor-discounts-increase-profits",
-      "date": "2026-05-15"
-    },
-    {
-      "title": "How to Create a Business Newsletter That Keeps Customers Coming Back",
-      "url": "https://www.ondeck.com/resources/business-newsletter",
-      "date": "2026-05-14"
-    },
-    {
-      "title": "The Best ZIP Codes to Start a Small Business in America",
-      "url": "https://www.ondeck.com/resources/best-place-to-start-a-small-business",
-      "date": "2026-05-12"
-    },
-    {
-      "title": "10 Steps to Hire the Right Employees for Your Small Business",
-      "url": "https://www.ondeck.com/resources/make-sure-youre-hiring-the-right-people",
-      "date": "2026-04-24"
-    },
-    {
-      "title": "A Small Business Guide to Growth Hacking",
-      "url": "https://www.ondeck.com/resources/growth-hacking",
-      "date": "2026-04-22"
-    },
-    {
-      "title": "What Is an SBA Loan?",
-      "url": "https://www.ondeck.com/resources/sba-loans",
-      "date": "2026-03-27"
-    },
-    {
-      "title": "What Is Receivables Financing and How Does It Work?",
-      "url": "https://www.ondeck.com/resources/receivables-financing",
-      "date": "2026-03-20"
-    },
-    {
-      "title": "How Does OnDeck Compare to Other Lenders?",
-      "url": "https://www.ondeck.com/resources/compare-lenders",
-      "date": "2025-12-19"
-    }
-  ],
   "repo": "ondeck",
   "feeds": [
+    {
+      "source": "https://www.ondeck.com/resources/feed/",
+      "feed_url": "https://www.ondeck.com/resources/feed/",
+      "title": "",
+      "saved": 1,
+      "method": "feed"
+    },
     {
       "source": "https://twitter.com/OnDeckCapital/",
       "feed_url": "https://twitter.com/OnDeckCapital/",
@@ -63,6 +16,6 @@
       "method": "none"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:03:07Z",
+  "post_count": 2
 }
