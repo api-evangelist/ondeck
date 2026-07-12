@@ -37,6 +37,10 @@ apis:
       - type: FinOps
         url: https://raw.githubusercontent.com/api-evangelist/ondeck/refs/heads/main/finops/ondeck-finops.yml
 common:
+  - type: VulnerabilityDisclosure
+    url: security/ondeck-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/ondeck-domain-security.yml
   - type: Website
     url: https://www.ondeck.com/
   - type: Documentation
