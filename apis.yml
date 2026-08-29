@@ -1,6 +1,17 @@
 aid: ondeck
 name: OnDeck
 description: OnDeck is a small business lending platform that provides partner APIs for submitting loan applications, checking business health scores via the OnDeck Score, managing loan products including term loans and lines of credit, and processing repayments. The API enables banks, brokers, and online service providers to embed OnDeck lending capabilities directly into their own platforms through credit pre-qualification, pre-approval, and full loan application submission workflows. OnDeck is an Enova International brand serving 185,000+ small businesses with $25 billion+ in capital delivered.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
