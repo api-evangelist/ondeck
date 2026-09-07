@@ -60,6 +60,16 @@ apis:
       - type: FinOps
         url: https://raw.githubusercontent.com/api-evangelist/ondeck/refs/heads/main/finops/ondeck-finops.yml
 common:
+  - type: TermsOfService
+    url: https://www.joinodf.com/terms-and-conditions
+  - type: PrivacyPolicy
+    url: https://www.joinodf.com/privacy-policy
+  - type: SignUp
+    url: https://form.fillout.com/t/x2fuWdEqkSus
+  - type: Support
+    url: https://admissions.joinodf.com/
+  - type: Community
+    url: https://community.joinodf.com/
   - type: VulnerabilityDisclosure
     url: security/ondeck-vulnerability-disclosure.yml
   - type: DomainSecurity
