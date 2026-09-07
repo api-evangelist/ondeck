@@ -60,6 +60,10 @@ apis:
       - type: FinOps
         url: https://raw.githubusercontent.com/api-evangelist/ondeck/refs/heads/main/finops/ondeck-finops.yml
 common:
+  - type: Security
+    url: https://www.ondeck.com/security-policy
+  - type: LLMsTxt
+    url: llms/ondeck-llms.txt
   - type: TermsOfService
     url: https://www.joinodf.com/terms-and-conditions
   - type: PrivacyPolicy
