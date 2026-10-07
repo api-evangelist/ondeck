@@ -1,3 +1,7 @@
+# Provenance stamped 2026-10-07 (roadmap#943): written by an API Evangelist sweep (undated — the file carries no date and git cannot supply one), not
+# harvested from the provider. `method: generated` so the economics campaign may replace it with a
+# dated, verbatim transcription; every figure below is unverified until it does.
+method: generated
 name: OnDeck Plans and Pricing
 description: OnDeck provides small business lending products through a partner API program. Access to the OnDeck API is granted to qualified partners including banks, brokers, and online service providers. There is no self-serve public pricing tier for API access.
 url: https://www.ondeck.com/partner
