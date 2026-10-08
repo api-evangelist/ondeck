@@ -40,3 +40,15 @@ products:
       - 24
     average_apr: "56.60%"
     origination_fee: "Up to 4%"
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: Partner API Access
+    access: partner
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
