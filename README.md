@@ -66,33 +66,108 @@
 
 OnDeck is a small business lending platform that provides partner APIs for submitting loan applications, checking business health scores via the OnDeck Score, managing loan products including term loans and lines of credit, and processing repayments. The API enables banks, brokers, and online service providers to embed OnDeck lending capabilities directly into their own platforms through credit pre-qualification, pre-approval, and full loan application submission workflows. OnDeck is an Enova International brand serving 185,000+ small businesses with $25 billion+ in capital delivered.
 
-- **Website:** https://www.ondeck.com/
-- **Partner/API Program:** https://www.ondeck.com/partner
-- **Blog:** https://www.ondeck.com/resources
-- **LinkedIn:** https://www.linkedin.com/company/ondeck/
-- **X (Twitter):** https://twitter.com/OnDeckCapital/
+**Areas:** Small Business Lending · Fintech · Loans · Credit Scoring · Business Health · Term Loans · Line of Credit · Loan Origination
 
-## APIs
+## OnDeck on APIs.io
 
-### OnDeck Lending API
+Everything profiled for OnDeck is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ondeck/](https://apis.io/providers/ondeck/)** — or go straight to one of the APIs or properties below.
 
-REST API providing partner access to OnDeck's small business lending platform. Features include:
+### APIs (1)
 
-- Credit pre-qualifications and pre-approvals
-- Full loan application submission from partner CRMs and portals
-- Business health score retrieval (OnDeck Score)
-- Loan product management (term loans and lines of credit)
-- Repayment processing
+- [OnDeck Lending API](https://apis.io/apis/ondeck/ondeck-lending-api/) — REST API providing partner access to OnDeck's small business lending platform, supporting credit pre-qualifications, loan application submission, business…
 
-API access requires a partner agreement. Contact partners@ondeck.com or visit the partner portal at https://partners.ondeck.com.
+### Published properties
 
-## Loan Products
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-| Product | Range | Terms | Avg APR |
-|---------|-------|-------|---------|
-| Business Term Loan | $5K - $400K | Up to 24 months | ~57.90% |
-| Business Line of Credit | $6K - $200K | 12, 18, or 24 months | ~56.60% |
+#### Security (2)
 
-## APIs.json
+Authentication, trust centre, and vulnerability disclosure.
 
-This repository contains an [APIs.json](apis.yml) profile for OnDeck following the [APIs.json 0.19 specification](https://apisjson.org/).
+- [Ondeck Domain Security](https://apis.io/security/ondeck/ondeck-domain-security/)
+- [Ondeck Vulnerability Disclosure](https://apis.io/security/ondeck/ondeck-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Ondeck Plans Pricing](https://apis.io/plans/ondeck/ondeck-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Ondeck Rate Limits](https://apis.io/rate-limits/ondeck/ondeck-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Ondeck Finops](https://apis.io/finops/ondeck/ondeck-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.ondeck.com/)
+- [Documentation](https://www.ondeck.com/partner)
+- [Pricing](https://www.ondeck.com/partner)
+- [Sign up](https://form.fillout.com/t/x2fuWdEqkSus)
+- [Support](https://admissions.joinodf.com/)
+- [Blog](https://www.ondeck.com/resources)
+- [Security](https://www.ondeck.com/security-policy)
+- [Terms of service](https://www.joinodf.com/terms-and-conditions)
+- [Privacy policy](https://www.joinodf.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 23.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 50.0 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 15.6** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ondeck/](https://apis.io/providers/ondeck/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for OnDeck: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ondeck/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
